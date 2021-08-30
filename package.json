@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal website portfolio",
+  "scripts": {
+    "start": "parcel port.html",
+    "build": "parcel build port.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turing-26/Personal-portfolio.git"
+  },
+  "author": "Sarim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Turing-26/Personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/Turing-26/Personal-portfolio#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.38.2"
+  }
+}
