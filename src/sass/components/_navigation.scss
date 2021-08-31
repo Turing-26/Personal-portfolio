@@ -83,8 +83,33 @@
       transition: 0.45s linear 0.55s;
     }
 
-    &[data-active="on"]::before {
-      background-color: $color-secondary--1;
+    &[data-active="on"] {
+      & + .nav__btn {
+        // background-color: transparent;
+        box-shadow: none;
+        animation: nav-btn 0.5s linear;
+        transform: scale(0.8);
+
+        & .nav__icon {
+          background-color: transparent;
+
+          &::before {
+            transform: translateY(0.8rem) rotate(45deg);
+          }
+
+          &::after {
+            transform: translateY(-0.8rem) rotate(-45deg);
+          }
+        }
+      }
+
+      &::before {
+        background-color: $color-secondary--1;
+      }
+
+      &::after {
+        background-color: $color-white;
+      }
     }
 
     &::after {
@@ -97,10 +122,6 @@
       border-radius: $border-radius--small;
       z-index: 0;
       transition: 0.45s linear 0.55s;
-    }
-
-    &[data-active="on"]::after {
-      background-color: $color-white;
     }
   }
 
