@@ -1,3 +1,49 @@
 .nav {
   background-color: rebeccapurple;
+
+  &__btn {
+    background-color: #fff;
+    height: 5rem;
+    width: 5rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &__icon {
+    width: 2.7rem;
+    height: 2px;
+    background-color: #333333;
+    display: inline-block;
+    position: relative;
+    margin-top: 2.5rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -0.8rem;
+      left: 0;
+      width: 3rem;
+      height: 2px;
+      background-color: #333333;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0.8rem;
+      left: 0;
+      width: 2.5rem;
+      height: 2px;
+      background-color: #333333;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+  }
 }
