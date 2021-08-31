@@ -15,10 +15,11 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  color: $color-base--2;
+  font-size: 1.6rem;
+  color: $color-base;
   font-weight: 400;
-  line-height: 1.6;
-  background-color: $color-base--2;
+  line-height: 1.6rem;
+  background-color: $color-base;
 }
 
 section {
