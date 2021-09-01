@@ -59,11 +59,15 @@
     z-index: 1000;
     text-transform: uppercase;
     font-weight: 700;
-    transition: 0.45s linear 0.55s;
+    transition: 0.45s linear 0.1s;
 
     &[data-active="off"] {
       opacity: 0;
       pointer-events: none;
+
+      & + .nav__btn {
+        animation: nav-btn-hidden 0.5s linear;
+      }
     }
 
     & > * {
@@ -80,14 +84,14 @@
       opacity: 1;
       transform: scaleX(1.2) scaleY(1.2);
       z-index: 0;
-      transition: 0.45s linear 0.55s;
+      transition: 0.45s linear 0.1s;
     }
 
     &[data-active="on"] {
       & + .nav__btn {
         // background-color: transparent;
         box-shadow: none;
-        animation: nav-btn 0.5s linear;
+        animation: nav-btn-active 0.5s linear;
         transform: scale(0.8);
 
         & .nav__icon {
@@ -121,7 +125,7 @@
       height: 100%;
       border-radius: $border-radius--small;
       z-index: 0;
-      transition: 0.45s linear 0.55s;
+      transition: 0.45s linear 0.1s;
     }
   }
 
