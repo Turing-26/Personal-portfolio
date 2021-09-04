@@ -1,22 +1,41 @@
 .header {
-  background-color: $color-dark--1;
-  height: 90vh;
+  background-color: $color-dark--2;
+  height: $header-height;
 
   &__bar {
-    background-color: $color-dark--1;
     display: flex;
     justify-content: space-between;
   }
 
   &__color {
+    position: absolute;
+    top: 0;
     background-color: $color-primary;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: $header-height;
+    z-index: 0;
+    transform: translateX(-50%);
+    transition: $transition;
+    // position: relative;
+
+    &.scroll {
+      transform: translateX(0);
+      transition: $transition;
+    }
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
 .logo {
   margin: 1rem;
+  z-index: 2;
 
   &-svg {
     fill: $color-base;

@@ -8,5 +8,9 @@ $color-secondary--1: #f3e600;
 $color-primary: #f86449;
 $color-secondary--2: #2aacc8;
 
-//Fixed values
+// Fixed values
 $border-radius--small: 2px;
+$header-height: 120vh;
+
+// Transformations
+$transition: transform 1000ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
