@@ -1,5 +1,5 @@
 .header {
-  background-color: $color-secondary--1;
+  background-color: $color-dark--1;
   height: 90vh;
 
   &__bar {
@@ -9,9 +9,9 @@
   }
 
   &__color {
-    background-color: lightseagreen;
-    height: 100%;
+    background-color: $color-primary;
     width: 50%;
+    height: 100%;
   }
 }
 
