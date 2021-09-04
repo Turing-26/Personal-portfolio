@@ -3,8 +3,15 @@
   height: 90vh;
 
   &__bar {
+    background-color: $color-dark--1;
     display: flex;
     justify-content: space-between;
+  }
+
+  &__color {
+    background-color: lightseagreen;
+    height: 100%;
+    width: 50%;
   }
 }
 
