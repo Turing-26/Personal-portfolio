@@ -15,12 +15,17 @@
     height: $header-height;
     z-index: 0;
     transform: translateX(-50%);
-    transition: $transition;
+    transition: $transition-bg;
     // position: relative;
 
     &.scroll {
       transform: translateX(0);
-      transition: $transition;
+      transition: $transition-bg;
+
+      // & + .header__heading {
+      //   left: 100%;
+      //   transition: $transition-heading;
+      // }
     }
   }
 
@@ -30,6 +35,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: $transition-heading;
   }
 }
 
