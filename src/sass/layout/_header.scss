@@ -22,14 +22,14 @@
       transform: translateX(0);
       transition: $transition-bg;
 
-      // & + .header__heading {
-      //   left: 100%;
-      //   transition: $transition-heading;
-      // }
+      & + .header__heading--container {
+        left: 100%;
+        transition: $transition-heading;
+      }
     }
   }
 
-  &__heading {
+  &__heading--container {
     text-transform: uppercase;
     position: absolute;
     top: 50%;
