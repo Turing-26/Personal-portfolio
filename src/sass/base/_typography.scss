@@ -8,3 +8,15 @@ h1 {
 h2 {
   font-size: 5rem;
 }
+
+h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.35;
+  padding-bottom: 0.25em;
+  color: $color-dark--1;
+}
+
+p {
+  line-height: 1.3;
+}

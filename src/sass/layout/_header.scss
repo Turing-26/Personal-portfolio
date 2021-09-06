@@ -1,5 +1,5 @@
 .header {
-  background-color: $color-dark--2;
+  background-color: $color-dark--1;
   height: $header-height;
 
   &__bar {
@@ -16,7 +16,9 @@
     z-index: 0;
     transform: translateX(-50%);
     transition: $transition-bg;
-    // position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
     &.scroll {
       transform: translateX(0);
@@ -36,6 +38,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transition: $transition-heading;
+  }
+
+  &__info {
+    padding: 2em;
+
+    &--para {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+
+      & span {
+        max-width: 200px;
+      }
+    }
   }
 }
 
