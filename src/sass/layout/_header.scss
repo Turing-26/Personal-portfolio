@@ -28,6 +28,20 @@
         left: 100%;
         transition: $transition-heading;
       }
+
+      & .header__info h3 {
+        opacity: 1;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        transition: transform 1000ms cubic-bezier(0.7, 0, 0.3, 1) 0ms,
+          opacity 500ms linear 450ms;
+      }
+
+      & .header__info--para {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        opacity: 1;
+        transition: transform 1000ms cubic-bezier(0.7, 0, 0.3, 1) 150ms,
+          opacity 500ms linear 600ms;
+      }
     }
   }
 
@@ -43,9 +57,17 @@
   &__info {
     padding: 2em;
 
+    & h3 {
+      transform: translate(-20%) matrix(1, 0, 0, 1, 0, 0);
+      opacity: 0;
+    }
+
     &--para {
       font-family: "Ubuntu", sans-serif;
       font-weight: 700;
+      overflow: hidden;
+      opacity: 0;
+      transform: translate(0%, 100%) matrix(1, 0, 0, 1, 0, 0);
 
       & span {
         max-width: 200px;
