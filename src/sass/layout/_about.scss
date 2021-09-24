@@ -1,5 +1,30 @@
 .section__about {
   background-color: $color-primary-fade;
   height: 500px;
-  transform: skewY(-5deg) translateY(-20px);
-} /******************************************************************************/
+  transform: skewY(-5deg) translateY(-2rem);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: gray;
+  transform: skewY(5deg);
+
+  &__heading {
+    margin: 3rem 0 1rem;
+
+    &::after {
+      content: "";
+      background-color: $color-secondary--1;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 24px;
+      height: 7px;
+      margin: -3.5px 0 0 -12px;
+      transform: skewY(-15deg);
+      transition: 0.72s cubic-bezier(0.52, 0.01, 0.16, 1);
+    }
+  }
+}
