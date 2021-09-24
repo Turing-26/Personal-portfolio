@@ -1,4 +1,5 @@
 .section__about {
-  background-color: $color-primary;
+  background-color: $color-primary-fade;
   height: 500px;
+  transform: skewY(-5deg) translateY(-20px);
 } /******************************************************************************/
