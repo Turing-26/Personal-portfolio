@@ -22,4 +22,8 @@ body {
   line-height: 1.6rem;
   background-color: $color-base;
   overflow-x: hidden;
+
+  ::selection {
+    background-color: $color-dark--2;
+  }
 }

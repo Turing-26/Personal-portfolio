@@ -1,0 +1,30 @@
+.btn {
+  &:link,
+  &:visited {
+    display: inline-block;
+    text-decoration: none;
+    background-color: $color-primary;
+    color: $color-white;
+
+    padding: 0 4rem;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    // position: relative;
+
+    //Reset <button> element
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($color-dark--1, 0.2);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba($color-dark--1, 0.2);
+  }
+}
