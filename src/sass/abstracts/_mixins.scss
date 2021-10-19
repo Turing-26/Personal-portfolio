@@ -1,4 +1,9 @@
 @mixin section-heading-style {
+  text-transform: uppercase;
+  margin: 1rem 0 3rem;
+  letter-spacing: 0.05em;
+  position: relative;
+
   &::after {
     content: "";
     background-color: $color-secondary--1;

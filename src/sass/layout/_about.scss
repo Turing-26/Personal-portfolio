@@ -21,10 +21,6 @@
   transform: skewY(5deg);
 
   &__heading {
-    margin: 1rem 0 3rem;
-    letter-spacing: 0.05em;
-    position: relative;
-
     @include section-heading-style;
   }
 

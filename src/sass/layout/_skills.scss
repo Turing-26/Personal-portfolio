@@ -1,0 +1,9 @@
+.section__skills {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills__heading {
+  @include section-heading-style;
+}
