@@ -4,6 +4,8 @@
   justify-content: center;
 }
 
-.skills__heading {
-  @include section-heading-style;
+.skills {
+  &__heading {
+    @include section-heading-style;
+  }
 }
