@@ -13,7 +13,7 @@
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\RE.js133194559615399675 0
 62C:\Users\Sarim26\Documents\Portfolio\node_modules\yaml\pair.js133194559603216924 0
 73C:\Users\Sarim26\Documents\Portfolio\node_modules\terser\bin\package.json133194559606297619 0
-47C:\Users\Sarim26\Documents\Portfolio\.gitignore132749717089140613 0
+47C:\Users\Sarim26\Documents\Portfolio\.gitignore133194599644220466 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\KZ.js133194559613399224 0
 78C:\Users\Sarim26\Documents\Portfolio\node_modules\csso\lib\restructure\prepare133194559605357418 1
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\NA.js133194559614389457 0
@@ -358,7 +358,7 @@
 112C:\Users\Sarim26\Documents\Portfolio\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\010-introduction.md133194559605937552 0
 56C:\Users\Sarim26\Documents\Portfolio\node_modules\dotenv133194559600836379 1
 74C:\Users\Sarim26\Documents\Portfolio\node_modules\v8-compile-cache\LICENSE133194559598815930 0
-119C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback133194559604997358 1
+119C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback133194559607467881 1
 90C:\Users\Sarim26\Documents\Portfolio\node_modules\utility-types\dist\aliases-and-guards.js133194559599266037 0
 58C:\Users\Sarim26\Documents\Portfolio\node_modules\msgpackr133194559606027554 1
 91C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\css-filters.js133194559608818187 0
@@ -3925,7 +3925,7 @@
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\plugin\src\PluginAPI.js133194559599846161 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\plugin\lib\PluginAPI.js133194559599296041 0
 125C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false\src133194559605917536 1
-128C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines133194559606927762 1
+128C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines133194559609488361 1
 74C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-svg\lib133194559599186038 1
 78C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-svg\LICENSE133194559598795919 0
 74C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-svg\src133194559599746140 1
@@ -3951,7 +3951,7 @@
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\core\test\test-utils.js133194559608728168 0
 117C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\package.json133194559605527484 0
 119C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\package-manager\test\fixtures\has-foo\subpackage\package.json133194559605427420 0
-112C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo133194559601736607 1
+112C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo133194559605237382 1
 121C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\index.js133194559601786603 0
 95C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\package-manager\src\installPackage.js133194559603677027 0
 96C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\package-manager\src\JSONParseStream.js133194559603807072 0
@@ -4002,7 +4002,7 @@
 108C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm133194559603547011 1
 109C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope133194559600906419 1
 84C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\gen-mapping\dist\types133194559602576785 1
-115C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased-file133194559604717311 1
+115C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased-file133194559607257854 1
 77C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\logger\package.json133194559600866394 0
 115C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main133194559607527898 1
 117C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module133194559607567909 1
