@@ -8,4 +8,8 @@
   &__heading {
     @include section-heading-style;
   }
+
+  &__table {
+    display: flex;
+  }
 }
