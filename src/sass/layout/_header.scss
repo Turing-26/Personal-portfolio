@@ -26,6 +26,7 @@
 
       & + .header__heading--container {
         left: 100%;
+        opacity: 0;
         transition: $transition-heading;
       }
 
@@ -55,17 +56,17 @@
   }
 
   &__info {
-    padding: $padding;
+    padding: 2.5em 2.5em 12em 2.5em;
 
     & h3 {
       color: $color-dark--1;
+      font-size: 3.2rem;
       transform: translate(-20%) matrix(1, 0, 0, 1, 0, 0);
       opacity: 0;
     }
 
     &--para {
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 700;
+      font-size: 2rem;
       overflow: hidden;
       opacity: 0;
       transform: translate(0%, 100%) matrix(1, 0, 0, 1, 0, 0);

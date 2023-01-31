@@ -1,4 +1,9 @@
 "use strict";
+const nav = document.querySelector(".nav");
+const header = document.querySelector(".header");
+const heading = document.querySelector(".header__heading");
+const colorBg = document.querySelector(".header__color");
+const headerRect = header.getBoundingClientRect();
 
 document.querySelector(".nav__btn").addEventListener("click", function (e) {
   e.preventDefault();
@@ -8,7 +13,6 @@ document.querySelector(".nav__btn").addEventListener("click", function (e) {
     : (document.querySelector(".nav__container").dataset.active = "off");
 });
 
-const nav = document.querySelector(".nav");
 const handleHover = function (event /*,opacity*/) {
   if (event.target.classList.contains("nav__link")) {
     const link = event.target;
@@ -25,11 +29,6 @@ const handleHover = function (event /*,opacity*/) {
 // Passing an argument into handler
 nav.addEventListener("mouseover", handleHover.bind(0.5));
 nav.addEventListener("mouseout", handleHover.bind(1));
-
-const header = document.querySelector(".header");
-const heading = document.querySelector(".header__heading");
-const colorBg = document.querySelector(".header__color");
-const headerRect = header.getBoundingClientRect();
 
 const animateHeader = function (entries, observer) {
   const [entry] = entries;

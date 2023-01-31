@@ -1,13 +1,13 @@
 .section__about {
   background-image: linear-gradient(
-      to right bottom,
+      to left bottom,
       rgba($color-primary, 0.85),
       rgba($color-primary-fade, 0.85)
     ),
     url(../../src/imgs/code.jpg);
   background-size: cover;
   // background-color: $color-primary-fade;
-  height: 500px;
+  // height: 500px;
   transform: skewY(-5deg) translateY(-2rem);
   padding: $padding;
 }
@@ -25,6 +25,9 @@
   }
 
   &__info {
-    font-weight: 700;
+    & span {
+      padding-top: 2rem;
+      display: block;
+    }
   }
 }
