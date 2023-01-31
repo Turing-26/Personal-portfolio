@@ -1,0 +1,13 @@
+.section__projects {
+  height: 500px;
+  background-color: $color-dark--2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  &__heading {
+    @include section-heading-style;
+  }
+}
