@@ -35,9 +35,9 @@
 93C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\link-icon-svg.js133194559613529249 0
 84C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\core\test\fixtures\plugins133194559606907753 1
 76C:\Users\Sarim26\Documents\Portfolio\node_modules\svgo\plugins\reusePaths.js133194559606507684 0
-41C:\Users\Sarim26\Documents\Portfolio\dist133196348670160110 1
+41C:\Users\Sarim26\Documents\Portfolio\dist133196361325550080 1
 66C:\Users\Sarim26\Documents\Portfolio\node_modules\chalk\index.d.ts133194559601496534 0
-46C:\Users\Sarim26\Documents\Portfolio\port.html133196348669760057 0
+46C:\Users\Sarim26\Documents\Portfolio\port.html133196358037535357 0
 84C:\Users\Sarim26\Documents\Portfolio\node_modules\svgo\plugins\convertShapeToPath.js133194559603717032 0
 63C:\Users\Sarim26\Documents\Portfolio\node_modules\utility-types133194559602866864 1
 72C:\Users\Sarim26\Documents\Portfolio\node_modules\parent-module\index.js133194559599105998 0
@@ -174,7 +174,7 @@
 74C:\Users\Sarim26\Documents\Portfolio\node_modules\normalize-path\README.md133194565176662840 0
 75C:\Users\Sarim26\Documents\Portfolio\node_modules\csso\lib\replace\property133194559604607242 1
 59C:\Users\Sarim26\Documents\Portfolio\node_modules\@trysound133194559585412897 1
-65C:\Users\Sarim26\Documents\Portfolio\src\sass\layout\_footer.scss133196338573620160 0
+65C:\Users\Sarim26\Documents\Portfolio\src\sass\layout\_footer.scss133196361379790040 0
 79C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\browsers.js133194559606937771 0
 69C:\Users\Sarim26\Documents\Portfolio\node_modules\parcel\package.json133194559601556549 0
 62C:\Users\Sarim26\Documents\Portfolio\node_modules\resolve-from133194559599926194 1
@@ -221,7 +221,7 @@
 67C:\Users\Sarim26\Documents\Portfolio\node_modules\is-number\LICENSE133194559599536093 0
 93C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\pad-start-end.js133194559614849554 0
 55C:\Users\Sarim26\Documents\Portfolio\node_modules\acorn133194559602146680 1
-71C:\Users\Sarim26\Documents\Portfolio\src\sass\abstracts\_variables.scss133196247925538735 0
+71C:\Users\Sarim26\Documents\Portfolio\src\sass\abstracts\_variables.scss133196360456310012 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\ES.js133194559610788649 0
 88C:\Users\Sarim26\Documents\Portfolio\node_modules\htmlnano\docs\docs\010-introduction.md133194559605847523 0
 82C:\Users\Sarim26\Documents\Portfolio\node_modules\msgpackr-extract\src\extract.cpp133194559599256033 0
@@ -469,7 +469,7 @@
 91C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\namer-default\src\DefaultNamer.js133194559599876188 0
 59C:\Users\Sarim26\Documents\Portfolio\node_modules\is-number133194559599896193 1
 150C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\package.json133194559607777959 0
-51C:\Users\Sarim26\Documents\Portfolio\dist\port.html133196348670150180 0
+51C:\Users\Sarim26\Documents\Portfolio\dist\port.html133196358151028046 0
 59C:\Users\Sarim26\Documents\Portfolio\node_modules\js-tokens133194559600396292 1
 86C:\Users\Sarim26\Documents\Portfolio\node_modules\svgo\plugins\cleanupNumericValues.js133194559602726818 0
 55C:\Users\Sarim26\Documents\Portfolio\node_modules\json5133194559602766833 1
@@ -4395,6 +4395,6 @@
 58C:\Users\Sarim26\Documents\Portfolio\dist\main.2026268b.js133194558564883315 0
 62C:\Users\Sarim26\Documents\Portfolio\dist\main.2026268b.js.map133194558565243366 0
 62C:\Users\Sarim26\Documents\Portfolio\dist\port.e37f48ea.js.map133196313790177373 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\port.f7626f62.css133196347184988816 0
-63C:\Users\Sarim26\Documents\Portfolio\dist\port.f7626f62.css.map133196347185018722 0
+59C:\Users\Sarim26\Documents\Portfolio\dist\port.f7626f62.css133196361325510062 0
+63C:\Users\Sarim26\Documents\Portfolio\dist\port.f7626f62.css.map133196361325540075 0
 53C:\Users\Sarim26\Documents\Portfolio\dist\port.js.map132754317614857126 0

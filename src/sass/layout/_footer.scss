@@ -36,4 +36,15 @@
   &__socials {
     z-index: 1;
   }
+
+  &__declaration {
+    z-index: 1;
+    font-size: 1.3rem;
+    color: $color-base--3;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid $color-base--3;
+  }
 }
