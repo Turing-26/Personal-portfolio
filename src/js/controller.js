@@ -49,7 +49,8 @@ const animateHeader = function (entries, observer) {
     let css = document.createElement("style");
     css.type = "text/css";
     css.id = "cursor";
-    css.innerHTML = ".txt__rotate > .wrap { border-right: 0.08em solid #666 }";
+    // css.innerHTML =
+    //   ".txt__rotate > .wrap { border-right: 0.08em solid #fffdd0 }";
     document.body.appendChild(css);
   } else {
     colorBg.classList.remove("scroll");
@@ -81,8 +82,8 @@ const TxtRotate = function (el, toRotate, period) {
 
 TxtRotate.prototype.tick = function () {
   if (!this.el) return;
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
+  let i = this.loopNum % this.toRotate.length;
+  let fullTxt = this.toRotate[i];
 
   if (this.isDeleting) {
     this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -90,10 +91,10 @@ TxtRotate.prototype.tick = function () {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
 
-  this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+  this.el.innerHTML = `${this.txt}<span id="cursor"></span>`;
 
-  var that = this;
-  var delta = 300 - Math.random() * 100;
+  let that = this;
+  let delta = 300 - Math.random() * 100;
 
   if (this.isDeleting) {
     delta /= 2;
