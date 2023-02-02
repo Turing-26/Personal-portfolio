@@ -55,6 +55,15 @@
     transition: $transition-heading;
   }
 
+  &__pix {
+    transform: translate(-20%) matrix(1, 0, 0, 1, 0, 0);
+    width: 90%;
+
+    & img {
+      width: 100%;
+    }
+  }
+
   &__info {
     padding: 2.5em 2.5em 12em 2.5em;
 
@@ -67,8 +76,10 @@
 
     &--para {
       font-size: 2rem;
+      font-weight: 600;
       overflow: hidden;
       opacity: 0;
+      color: $color-base--4;
       transform: translate(0%, 100%) matrix(1, 0, 0, 1, 0, 0);
 
       & span {

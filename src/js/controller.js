@@ -4,6 +4,8 @@ const header = document.querySelector(".header");
 const heading = document.querySelector(".header__heading");
 const colorBg = document.querySelector(".header__color");
 const headerRect = header.getBoundingClientRect();
+// const elements = document.getElementsByClassName("txt-rotate");
+const elements = document.querySelector(".txt__rotate");
 
 document.querySelector(".nav__btn").addEventListener("click", function (e) {
   e.preventDefault();
@@ -29,6 +31,7 @@ const handleHover = function (event /*,opacity*/) {
 // Passing an argument into handler
 nav.addEventListener("mouseover", handleHover.bind(0.5));
 nav.addEventListener("mouseout", handleHover.bind(1));
+let typewriter;
 
 const animateHeader = function (entries, observer) {
   const [entry] = entries;
@@ -36,7 +39,25 @@ const animateHeader = function (entries, observer) {
   if (!entry.isIntersecting) {
     console.log("firing");
     colorBg.classList.add("scroll");
-  } else colorBg.classList.remove("scroll");
+    const elements = document.querySelector(".txt__rotate");
+
+    const toRotate = elements.getAttribute("data-rotate");
+    const period = elements.getAttribute("data-period");
+    typewriter = new TxtRotate(elements, JSON.parse(toRotate), period);
+
+    // INJECT CSS
+    let css = document.createElement("style");
+    css.type = "text/css";
+    css.id = "cursor";
+    css.innerHTML = ".txt__rotate > .wrap { border-right: 0.08em solid #666 }";
+    document.body.appendChild(css);
+  } else {
+    colorBg.classList.remove("scroll");
+    const el = document.querySelector("#cursor");
+    if (el) el.remove();
+    if (typewriter) typewriter.el = undefined;
+    // console.log(typewriter);
+  }
 };
 
 const headerObserver = new IntersectionObserver(animateHeader, {
@@ -47,3 +68,63 @@ const headerObserver = new IntersectionObserver(animateHeader, {
 
 headerObserver.observe(heading);
 /* transform 1000ms cubic-bezier(0.7, 0, 0.3, 1) 0ms; */
+
+const TxtRotate = function (el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10);
+  this.txt = "";
+  if (this.el) this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function () {
+  if (!this.el) return;
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) {
+    delta /= 2;
+  }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === "") {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function () {
+    that.tick();
+  }, delta);
+};
+
+// window.onload = function () {
+//   const elements = document.querySelector(".txt__rotate");
+
+//   const toRotate = elements.getAttribute("data-rotate");
+//   const period = elements.getAttribute("data-period");
+//   if (toRotate) {
+//     new TxtRotate(elements, JSON.parse(toRotate), period);
+//   }
+
+//   // INJECT CSS
+//   let css = document.createElement("style");
+//   css.type = "text/css";
+//   css.innerHTML = ".txt__rotate > .wrap { border-right: 0.08em solid #666 }";
+//   document.body.appendChild(css);
+// };
