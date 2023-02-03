@@ -21,6 +21,7 @@
     width: 100%;
     height: 100%;
     padding: 1.2em;
+    border-radius: $border-radius--small;
   }
 
   &__skill {
@@ -42,8 +43,10 @@
   &__bar {
     background-color: $color-base--2;
     width: 100%;
+    border-radius: $border-radius--small;
 
     &--filled {
+      border-radius: $border-radius--small 0 0 $border-radius--small;
       height: 8px;
       background-color: $color-primary;
     }

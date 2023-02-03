@@ -105,19 +105,3 @@ TxtRotate.prototype.tick = function () {
     that.tick();
   }, delta);
 };
-
-// window.onload = function () {
-//   const elements = document.querySelector(".txt__rotate");
-
-//   const toRotate = elements.getAttribute("data-rotate");
-//   const period = elements.getAttribute("data-period");
-//   if (toRotate) {
-//     new TxtRotate(elements, JSON.parse(toRotate), period);
-//   }
-
-//   // INJECT CSS
-//   let css = document.createElement("style");
-//   css.type = "text/css";
-//   css.innerHTML = ".txt__rotate > .wrap { border-right: 0.08em solid #666 }";
-//   document.body.appendChild(css);
-// };

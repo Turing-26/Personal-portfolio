@@ -97,8 +97,9 @@
 #cursor {
   display: inline-block;
   background-color: $color-base--4;
-  height: 3px;
+  height: 4px;
   width: 10px;
+  margin-bottom: -3px;
   animation: animated-cursor 400ms steps(29, end) infinite;
 }
 
