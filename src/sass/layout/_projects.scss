@@ -1,13 +1,71 @@
 .section__projects {
-  height: 500px;
+  // height: 500px;
   background-color: $color-dark--2;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .projects {
+  display: flex;
+
   &__heading {
     @include section-heading-style;
+  }
+
+  &__projects {
+    padding: 0 2rem 1.5rem 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+
+    &:hover {
+      .projects__container {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -14.5rem;
+    transition: $transition-heading;
+  }
+
+  &__name {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: $color-primary;
+  }
+
+  &__info {
+    // font-size: 1.3rem;
+    color: #000;
+    font-weight: 400;
+    padding: 1.5rem;
+  }
+
+  &__link {
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+  }
+
+  &__img {
+    width: 100%;
+    position: relative;
+
+    & img {
+      width: 100%;
+    }
   }
 }

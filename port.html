@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
     <link rel="icon" type="image/png" sizes="16x16" href="src/imgs/logo1.png" />
     <link rel="stylesheet" href="src/sass/main.scss" />
     <script defer type="module" src="src/js/controller.js"></script>
@@ -62,7 +65,9 @@
         <nav class="nav">
           <div class="nav__container" data-active="off">
             <ul class="nav__list">
-              <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">home</a>
+              </li>
               <li class="nav__item">
                 <a href="#" class="nav__link">about me</a>
               </li>
@@ -72,17 +77,19 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">portfolio</a>
               </li>
-              <li class="nav__item"><a href="#" class="btn">contact me</a></li>
+              <li class="nav__item">
+                <a href="#" class="btn">contact me</a>
+              </li>
             </ul>
           </div>
           <div class="nav__btn"><span class="nav__icon"></span></div>
         </nav>
       </div>
       <div class="header__color">
-        <div class="header__pix">
-          <img src="/src/imgs/pixx.png" alt="pixel me" />
-        </div>
         <div class="header__info">
+          <div class="header__pix">
+            <img src="/src/imgs/prog2.png" alt="pixel me" />
+          </div>
           <h3>I'm Sarim Ahmad</h3>
           <p
             class="header__info--para txt__rotate"
@@ -197,6 +204,22 @@
     </section>
     <section class="section__projects">
       <h3 class="projects__heading">My projects</h3>
+      <div class="projects__projects">
+        <div class="projects__project">
+          <div class="projects__img">
+            <img src="/src/imgs/p.jpg" alt="project template" />
+            <div class="projects__container">
+              <h5 class="projects__name">Project name</h5>
+              <div class="projects__info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                ex quos, in quidem sapiente delectus voluptatem, libero quis id
+                consectetur.
+              </div>
+              <a href="#" class="projects__link">project link</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <footer class="footer">
       <div class="footer__content">

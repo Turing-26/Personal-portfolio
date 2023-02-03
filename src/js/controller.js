@@ -44,14 +44,6 @@ const animateHeader = function (entries, observer) {
     const toRotate = elements.getAttribute("data-rotate");
     const period = elements.getAttribute("data-period");
     typewriter = new TxtRotate(elements, JSON.parse(toRotate), period);
-
-    // INJECT CSS
-    let css = document.createElement("style");
-    css.type = "text/css";
-    css.id = "cursor";
-    // css.innerHTML =
-    //   ".txt__rotate > .wrap { border-right: 0.08em solid #fffdd0 }";
-    document.body.appendChild(css);
   } else {
     colorBg.classList.remove("scroll");
     const el = document.querySelector("#cursor");
