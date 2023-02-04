@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel port.html"
+    "start": "parcel port.html",
+    "test": "nodemon dist/port.html"
   },
   "repository": {
     "type": "git",

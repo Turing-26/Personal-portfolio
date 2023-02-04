@@ -39,3 +39,105 @@
     background-color: transparent;
   }
 }
+
+@keyframes abtBg {
+  0% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 1),
+        rgba($color-primary-fade, 1)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  20% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.98),
+        rgba($color-primary-fade, 0.98)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  40% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.94),
+        rgba($color-primary-fade, 0.94)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  60% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.92),
+        rgba($color-primary-fade, 0.92)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  80% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.9),
+        rgba($color-primary-fade, 0.9)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  100% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.88),
+        rgba($color-primary-fade, 0.88)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+}
+
+@keyframes abtRev {
+  0% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.88),
+        rgba($color-primary-fade, 0.88)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  20% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.9),
+        rgba($color-primary-fade, 0.9)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  40% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.92),
+        rgba($color-primary-fade, 0.92)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  60% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.94),
+        rgba($color-primary-fade, 0.94)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  80% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 0.96),
+        rgba($color-primary-fade, 0.96)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+  100% {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-primary, 1),
+        rgba($color-primary-fade, 1)
+      ),
+      url(../../src/imgs/code.jpg);
+  }
+}

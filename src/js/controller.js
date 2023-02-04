@@ -6,6 +6,9 @@ const colorBg = document.querySelector(".header__color");
 const headerRect = header.getBoundingClientRect();
 // const elements = document.getElementsByClassName("txt-rotate");
 const elements = document.querySelector(".txt__rotate");
+const about = document.querySelector(".section__about");
+const aboutHd = document.querySelector(".about__heading");
+const aboutIn = document.querySelector(".about__info");
 
 document.querySelector(".nav__btn").addEventListener("click", function (e) {
   e.preventDefault();
@@ -37,9 +40,7 @@ const animateHeader = function (entries, observer) {
   const [entry] = entries;
 
   if (!entry.isIntersecting) {
-    console.log("firing");
     colorBg.classList.add("scroll");
-    const elements = document.querySelector(".txt__rotate");
 
     const toRotate = elements.getAttribute("data-rotate");
     const period = elements.getAttribute("data-period");
@@ -60,7 +61,28 @@ const headerObserver = new IntersectionObserver(animateHeader, {
 });
 
 headerObserver.observe(heading);
-/* transform 1000ms cubic-bezier(0.7, 0, 0.3, 1) 0ms; */
+
+const animateAbout = function (entries, observer) {
+  const [entry] = entries;
+
+  if (entry.isIntersecting) {
+    about.classList.add("scroll");
+    aboutHd.classList.add("scroll");
+    aboutIn.classList.add("scroll");
+  } else {
+    about.classList.remove("scroll");
+    aboutHd.classList.remove("scroll");
+    aboutIn.classList.remove("scroll");
+  }
+};
+
+const aboutObserver = new IntersectionObserver(animateAbout, {
+  root: null,
+  threshold: 0.3,
+  rootMargin: "0% 0% 0% 0%",
+});
+
+aboutObserver.observe(about);
 
 const TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
