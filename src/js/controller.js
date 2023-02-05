@@ -6,13 +6,18 @@ const colorBg = document.querySelector(".header__color");
 const headerRect = header.getBoundingClientRect();
 // const elements = document.getElementsByClassName("txt-rotate");
 const elements = document.querySelector(".txt__rotate");
+const body = document.querySelector("body");
 const about = document.querySelector(".section__about");
 const aboutHd = document.querySelector(".about__heading");
 const aboutIn = document.querySelector(".about__info");
+const skills = document.querySelector(".section__skills");
+const skillsHd = document.querySelector(".skills__heading");
+const skillsTb = document.querySelector(".skills__table");
+const skillBars = document.querySelectorAll(".skills__bar--filled");
 
 document.querySelector(".nav__btn").addEventListener("click", function (e) {
   e.preventDefault();
-  console.log(document.querySelector(".nav__container").dataset.active);
+  // console.log(document.querySelector(".nav__container").dataset.active);
   document.querySelector(".nav__container").dataset.active === "off"
     ? (document.querySelector(".nav__container").dataset.active = "on")
     : (document.querySelector(".nav__container").dataset.active = "off");
@@ -69,6 +74,10 @@ const animateAbout = function (entries, observer) {
     about.classList.add("scroll");
     aboutHd.classList.add("scroll");
     aboutIn.classList.add("scroll");
+    skillBars.forEach((el) => {
+      el.classList.add("scroll");
+    });
+    observer.unobserve(entry.target);
   } else {
     about.classList.remove("scroll");
     aboutHd.classList.remove("scroll");
@@ -83,6 +92,27 @@ const aboutObserver = new IntersectionObserver(animateAbout, {
 });
 
 aboutObserver.observe(about);
+
+const animateSkills = function (entries, observer) {
+  const [entry] = entries;
+
+  if (entry.isIntersecting) {
+    skillsHd.classList.add("scroll");
+    skillsTb.classList.add("scroll");
+    observer.unobserve(entry.target);
+  } else {
+    skillsHd.classList.remove("scroll");
+    skillsTb.classList.remove("scroll");
+  }
+};
+
+const skillObserver = new IntersectionObserver(animateSkills, {
+  root: null,
+  threshold: 0.3,
+  rootMargin: "0% 0% 0% 0%",
+});
+
+skillObserver.observe(skills);
 
 const TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
