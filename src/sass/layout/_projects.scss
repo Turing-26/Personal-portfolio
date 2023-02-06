@@ -18,6 +18,23 @@
     padding: 1.5rem 3.5rem;
     margin-bottom: 1rem;
     border-radius: $border-radius--small;
+
+    @include respond(phone) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      padding: 5rem 3.5rem;
+    }
+  }
+
+  &__div {
+    @include respond(phone) {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 1.5rem 0;
+    }
   }
 
   &__project {
@@ -27,6 +44,15 @@
     overflow-y: hidden;
     border-radius: $border-radius--small;
     margin-bottom: 2.5rem;
+    max-width: 28rem;
+
+    @include respond(phone) {
+      max-width: 18rem;
+    }
+
+    @include respond(tab-port) {
+      max-width: 25rem;
+    }
 
     &:hover {
       & .projects__container {
@@ -55,6 +81,10 @@
     line-height: 150%;
     text-align: center;
     background-color: $color-primary;
+
+    @include respond(phone) {
+      font-size: 1.8rem;
+    }
   }
 
   &__info {
@@ -62,6 +92,11 @@
     color: #000;
     font-weight: 400;
     padding: 1.5rem;
+
+    @include respond(phone) {
+      font-size: 1.3rem;
+      padding: 0.5rem;
+    }
   }
 
   &__img {

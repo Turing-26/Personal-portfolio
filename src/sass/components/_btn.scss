@@ -44,6 +44,10 @@
     display: inline-block;
     transition: all 0.2s;
     border-radius: $border-radius--small;
+
+    @include respond(phone) {
+      font-size: 1rem;
+    }
   }
 
   &:hover {

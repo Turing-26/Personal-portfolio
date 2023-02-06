@@ -24,7 +24,12 @@ body {
   background-color: $color-base;
   overflow-x: hidden;
 
+  @include respond(phone) {
+    font-size: 1.8rem;
+  }
+
   ::selection {
     background-color: $color-dark--2;
+    color: $color-primary;
   }
 }

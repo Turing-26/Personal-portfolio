@@ -3,6 +3,18 @@ h1 {
   font-weight: 900;
   line-height: 1.35;
   color: $color-secondary--1;
+
+  @include respond(phone) {
+    font-size: 13rem;
+  }
+
+  @include respond(tab-port) {
+    font-size: 15rem;
+  }
+
+  @include respond(tab-land) {
+    font-size: 20rem;
+  }
 }
 
 h2 {
@@ -16,6 +28,10 @@ h3 {
   font-weight: 900;
   line-height: 1.35;
   padding-bottom: 0.85em;
+
+  @include respond(phone) {
+    font-size: 3rem;
+  }
 }
 
 p {
