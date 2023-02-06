@@ -33,3 +33,30 @@ body {
     color: $color-primary;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0.5em;
+
+  &-track {
+    background: $color-dark--1;
+    // border-radius: 15px;
+    // margin-block: 0.5em;
+  }
+
+  &-thumb {
+    background: $color-primary-fade;
+    border-radius: 15px;
+
+    &:hover {
+      background: $color-primary;
+      border-radius: 15px;
+    }
+  }
+}
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: $color-primary-fade $color-dark--1;
+    scrollbar-width: thin;
+  }
+}
