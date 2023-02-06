@@ -10,6 +10,12 @@
     align-items: center;
     position: relative;
     padding: 4rem 0;
+    transform: translateY(100%);
+    transition: $transition-heading;
+
+    &.scroll {
+      transform: translateY(0);
+    }
 
     &::before {
       content: "";

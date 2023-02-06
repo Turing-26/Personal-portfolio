@@ -14,6 +14,8 @@ const skills = document.querySelector(".section__skills");
 const skillsHd = document.querySelector(".skills__heading");
 const skillsTb = document.querySelector(".skills__table");
 const skillBars = document.querySelectorAll(".skills__bar--filled");
+const footer = document.querySelector(".footer");
+const footerCon = document.querySelector(".footer__content");
 
 document.querySelector(".nav__btn").addEventListener("click", function (e) {
   e.preventDefault();
@@ -113,6 +115,24 @@ const skillObserver = new IntersectionObserver(animateSkills, {
 });
 
 skillObserver.observe(skills);
+
+const animateFooter = function (entries, observer) {
+  const [entry] = entries;
+
+  if (entry.isIntersecting) {
+    footerCon.classList.add("scroll");
+  } else {
+    footerCon.classList.remove("scroll");
+  }
+};
+
+const footerObserver = new IntersectionObserver(animateFooter, {
+  root: null,
+  threshold: 1,
+  rootMargin: "0% 0% 0% 0%",
+});
+
+footerObserver.observe(footer);
 
 const TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
