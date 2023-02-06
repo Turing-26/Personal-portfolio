@@ -27,14 +27,78 @@
   &__head {
     width: 25%;
     height: 20%;
+
+    @include respond(phone) {
+      display: flex;
+      justify-content: center;
+    }
+
     & img {
       width: 100%;
+
+      @include respond(phone) {
+        width: 70%;
+      }
+
+      @include respond(tab-port) {
+        width: 55%;
+      }
+
+      @include respond(tab-land) {
+        width: 35%;
+      }
     }
     z-index: 1;
   }
 
+  &__contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1; // width: 10rem;
+    width: 100%;
+  }
+
+  &__contact {
+    &:link,
+    &:visited {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      color: $color-white;
+      display: block;
+      transition: all 200ms cubic-bezier(0.7, 0.2, 0.3, 1) 0ms;
+      // flex-grow: 1;
+    }
+
+    &:hover {
+      color: $color-primary-fade;
+      // flex-grow: 1;
+    }
+  }
+
   &__socials {
-    z-index: 1;
+    display: flex;
+    height: 6rem;
+    // padding: 3rem;
+    & svg {
+      width: 3.5rem;
+      cursor: pointer;
+      margin-top: -4.75rem;
+      fill: $color-white;
+      transition: all 200ms cubic-bezier(0.7, 0.2, 0.3, 1) 0ms;
+
+      &:hover {
+        fill: $color-primary-fade;
+      }
+    }
+  }
+
+  &__social {
+    text-align: center;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
   &__declaration {
