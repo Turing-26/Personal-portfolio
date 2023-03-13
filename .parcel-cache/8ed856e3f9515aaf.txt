@@ -1,4 +1,4 @@
-4423
+4406
 68C:\Users\Sarim26\Documents\Portfolio\node_modules\is-json\.npmignore133199845183802637 0
 105C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\document-scrollingelement.js133199845206297723 0
 117C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\mdn-css-unicode-bidi-isolate-override.js133199845211348826 0
@@ -35,7 +35,7 @@
 93C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\link-icon-svg.js133199845210768716 0
 84C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\core\test\fixtures\plugins133199845200016279 1
 76C:\Users\Sarim26\Documents\Portfolio\node_modules\svgo\plugins\reusePaths.js133199845199346127 0
-41C:\Users\Sarim26\Documents\Portfolio\dist133206757343396932 1
+41C:\Users\Sarim26\Documents\Portfolio\dist133231728255629063 1
 66C:\Users\Sarim26\Documents\Portfolio\node_modules\is-glob\index.js133199845183782627 0
 74C:\Users\Sarim26\Documents\Portfolio\node_modules\weak-lru-cache\README.md133199845188663712 0
 54C:\Users\Sarim26\Documents\Portfolio\src\imgs\pixx.png133197160892021968 0
@@ -47,7 +47,7 @@
 57C:\Users\Sarim26\Documents\Portfolio\src\imgs\chatapp.png133203531334027895 0
 99C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\source-map\dist\wasm-bindings-web.js.flow133199845187193386 0
 66C:\Users\Sarim26\Documents\Portfolio\node_modules\chalk\index.d.ts133199845188373646 0
-46C:\Users\Sarim26\Documents\Portfolio\port.html133206757264384086 0
+46C:\Users\Sarim26\Documents\Portfolio\port.html133231237844031249 0
 84C:\Users\Sarim26\Documents\Portfolio\node_modules\svgo\plugins\convertShapeToPath.js133199845192134500 0
 63C:\Users\Sarim26\Documents\Portfolio\node_modules\utility-types133199845190744352 1
 72C:\Users\Sarim26\Documents\Portfolio\node_modules\parent-module\index.js133199845183742614 0
@@ -250,7 +250,7 @@
 82C:\Users\Sarim26\Documents\Portfolio\node_modules\msgpackr-extract\src\extract.cpp133199845184122699 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\workers\src\Profiler.js133199845193374777 0
 70C:\Users\Sarim26\Documents\Portfolio\node_modules\json5\lib\parse.d.ts133199845191594378 0
-57C:\Users\Sarim26\Documents\Portfolio\src\js\controller.js133201903586246874 0
+57C:\Users\Sarim26\Documents\Portfolio\src\js\controller.js133231728255308974 0
 72C:\Users\Sarim26\Documents\Portfolio\node_modules\lightningcss\README.md133199845189974069 0
 73C:\Users\Sarim26\Documents\Portfolio\node_modules\to-regex-range\index.js133199845183732619 0
 70C:\Users\Sarim26\Documents\Portfolio\node_modules\fill-range\README.md133199845185963112 0
@@ -509,7 +509,7 @@
 91C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\namer-default\src\DefaultNamer.js133199845185342969 0
 59C:\Users\Sarim26\Documents\Portfolio\node_modules\is-number133199845185453005 1
 150C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\package.json133199845201626652 0
-51C:\Users\Sarim26\Documents\Portfolio\dist\port.html133206757343386924 0
+51C:\Users\Sarim26\Documents\Portfolio\dist\port.html133231726240555673 0
 59C:\Users\Sarim26\Documents\Portfolio\node_modules\js-tokens133199845186413219 1
 86C:\Users\Sarim26\Documents\Portfolio\node_modules\svgo\plugins\cleanupNumericValues.js133199845190444120 0
 55C:\Users\Sarim26\Documents\Portfolio\node_modules\json5133199845190504134 1
@@ -1423,7 +1423,7 @@
 76C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\set-array\dist133199845188373646 1
 91C:\Users\Sarim26\Documents\Portfolio\node_modules\@swc\helpers\lib\_class_name_tdz_error.js133199845191914448 0
 87C:\Users\Sarim26\Documents\Portfolio\node_modules\csso\lib\restructure\prepare\index.js133199845194244975 0
-58C:\Users\Sarim26\Documents\Portfolio\dist\port.e37f48ea.js133203570389731368 0
+58C:\Users\Sarim26\Documents\Portfolio\dist\port.e37f48ea.js133231728255589056 0
 89C:\Users\Sarim26\Documents\Portfolio\node_modules\@swc\helpers\src\_wrap_native_super.mjs133199845203607088 0
 100C:\Users\Sarim26\Documents\Portfolio\node_modules\@swc\helpers\lib\_class_private_field_loose_key.js133199845192664636 0
 65C:\Users\Sarim26\Documents\Portfolio\node_modules\srcset\index.js133199845183702618 0
@@ -1432,7 +1432,6 @@
 98C:\Users\Sarim26\Documents\Portfolio\node_modules\source-map-support\browser-source-map-support.js133199845183452547 0
 94C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\watcher\src\macos\FSEventsBackend.cc133199845188643710 0
 93C:\Users\Sarim26\Documents\Portfolio\node_modules\csso\lib\restructure\4-restructShorthand.js133199845187283415 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\pixx.2770152b.png133199074514974939 0
 79C:\Users\Sarim26\Documents\Portfolio\node_modules\source-map-support\LICENSE.md133199845187973561 0
 73C:\Users\Sarim26\Documents\Portfolio\node_modules\escalade\dist\index.mjs133199845187713503 0
 67C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data133199845207027892 1
@@ -1504,7 +1503,6 @@
 100C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\workers\test\integration\workerfarm\ipc.js133199845191854437 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\PT.js133199845214449569 0
 78C:\Users\Sarim26\Documents\Portfolio\node_modules\source-map\lib\base64-vlq.js133199845187813530 0
-56C:\Users\Sarim26\Documents\Portfolio\dist\p.0a7e04d9.jpg133203570387620709 0
 93C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\fs-search\fs-search.darwin-x64.node133199845190664189 0
 67C:\Users\Sarim26\Documents\Portfolio\node_modules\csso\dist\csso.js133199845192614623 0
 74C:\Users\Sarim26\Documents\Portfolio\node_modules\source-map\lib\base64.js133199845188293632 0
@@ -1625,7 +1623,6 @@
 91C:\Users\Sarim26\Documents\Portfolio\node_modules\csso\lib\restructure\8-restructRuleset.js133199845188823784 0
 95C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\document-policy.js133199845206267740 0
 98C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\link-rel-prerender.js133199845210898727 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\logo.b09bf50e.png133196248333650258 0
 67C:\Users\Sarim26\Documents\Portfolio\node_modules\react-refresh\cjs133199845187843538 1
 84C:\Users\Sarim26\Documents\Portfolio\node_modules\lmdb\dependencies\lz4\lib\xxhash.c133199845200146311 0
 88C:\Users\Sarim26\Documents\Portfolio\node_modules\css-tree\lib\syntax\atrule\supports.js133199845202056731 0
@@ -2837,7 +2834,6 @@
 129C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\browser.js133199845191124278 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\GM.js133199845208188164 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\GP.js133199845208238142 0
-49C:\Users\Sarim26\Documents\Portfolio\dist\port.js132754317544342088 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\GR.js133199845208288180 0
 82C:\Users\Sarim26\Documents\Portfolio\node_modules\@swc\helpers\lib\_ts_decorate.js133199845200146311 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\regions\GT.js133199845208308142 0
@@ -3349,7 +3345,6 @@
 96C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\publickeypinning.js133199845214489542 0
 92C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\gen-mapping\src\gen-mapping.ts133199845189543903 0
 86C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\utils\test\sourcemap.test.js133199845199706212 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\code.0c052bbd.jpg133194558562882850 0
 93C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\queryselector.js133199845214609571 0
 93C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\readonly-attr.js133199845214649594 0
 95C:\Users\Sarim26\Documents\Portfolio\node_modules\caniuse-lite\data\features\referrer-policy.js133199845214669576 0
@@ -3950,7 +3945,6 @@
 89C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-raw\src\RawPackager.js133199845185292967 0
 73C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-js\lib133199845191574397 1
 92C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-js\src\CJSOutputFormat.js133199845185312962 0
-61C:\Users\Sarim26\Documents\Portfolio\dist\github.67879e93.svg133201709388057462 0
 92C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-js\lib\CJSOutputFormat.js133199845184282734 0
 88C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-js\lib\DevPackager.js133199845187903559 0
 95C:\Users\Sarim26\Documents\Portfolio\node_modules\@parcel\packager-js\lib\GlobalOutputFormat.js133199845189523916 0
@@ -4299,7 +4293,6 @@
 79C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\set-array\LICENSE133199845182992442 0
 84C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\set-array\package.json133199845185162942 0
 81C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\set-array\README.md133199845187643498 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\logo.452016b5.png132752759559312871 0
 75C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\set-array\src133199845189043802 1
 88C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\set-array\src\set-array.ts133199845189153840 0
 94C:\Users\Sarim26\Documents\Portfolio\node_modules\@jridgewell\set-array\dist\set-array.mjs.map133199845186103153 0
@@ -4399,26 +4392,16 @@
 65C:\Users\Sarim26\Documents\Portfolio\node_modules\.bin\semver.ps1133199845220030789 0
 61C:\Users\Sarim26\Documents\Portfolio\node_modules\.bin\terser133199845220070996 0
 65C:\Users\Sarim26\Documents\Portfolio\node_modules\.bin\terser.cmd133199845220070996 0
-62C:\Users\Sarim26\Documents\Portfolio\dist\chatapp.9a702b5d.png133203570389571329 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\code.455eb394.jpg133203570387670728 0
-64C:\Users\Sarim26\Documents\Portfolio\dist\controller.e87f5190.js133194558564873273 0
-68C:\Users\Sarim26\Documents\Portfolio\dist\controller.e87f5190.js.map133194558565243366 0
-62C:\Users\Sarim26\Documents\Portfolio\dist\encrypt.afb29dac.png133203570387490669 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\face.2b1e9241.png133206757342426707 0
-60C:\Users\Sarim26\Documents\Portfolio\dist\icons.13d9390a.svg133203570390081242 0
-64C:\Users\Sarim26\Documents\Portfolio\dist\instagram.a1d6d0c7.svg133201617870973422 0
-66C:\Users\Sarim26\Documents\Portfolio\dist\learnersden.d10f7632.png133203570387620709 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\logo.727ff963.svg133196245028947145 0
-60C:\Users\Sarim26\Documents\Portfolio\dist\logo1.39bf7082.png133194558562852839 0
-60C:\Users\Sarim26\Documents\Portfolio\dist\logo1.3f4e0585.png133203570387490669 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\main.2026268b.css133194558562813003 0
-63C:\Users\Sarim26\Documents\Portfolio\dist\main.2026268b.css.map133194558565273360 0
-58C:\Users\Sarim26\Documents\Portfolio\dist\main.2026268b.js133194558564883315 0
-62C:\Users\Sarim26\Documents\Portfolio\dist\main.2026268b.js.map133194558565243366 0
-62C:\Users\Sarim26\Documents\Portfolio\dist\map app.e9cfd8c6.png133203570387910752 0
-62C:\Users\Sarim26\Documents\Portfolio\dist\port.e37f48ea.js.map133203570389761165 0
-59C:\Users\Sarim26\Documents\Portfolio\dist\port.f7626f62.css133203570387930755 0
-63C:\Users\Sarim26\Documents\Portfolio\dist\port.f7626f62.css.map133203570387970793 0
-53C:\Users\Sarim26\Documents\Portfolio\dist\port.js.map132754317614857126 0
-60C:\Users\Sarim26\Documents\Portfolio\dist\prog2.014655d0.png133203570387970793 0
-64C:\Users\Sarim26\Documents\Portfolio\dist\tictactoe.7ea49b45.png133203570387490669 0
+62C:\Users\Sarim26\Documents\Portfolio\dist\chatapp.9a702b5d.png133231726239785492 0
+59C:\Users\Sarim26\Documents\Portfolio\dist\code.455eb394.jpg133231726239825611 0
+62C:\Users\Sarim26\Documents\Portfolio\dist\encrypt.afb29dac.png133231726238785277 0
+59C:\Users\Sarim26\Documents\Portfolio\dist\face.2b1e9241.png133231726238115124 0
+60C:\Users\Sarim26\Documents\Portfolio\dist\icons.13d9390a.svg133231726240235602 0
+66C:\Users\Sarim26\Documents\Portfolio\dist\learnersden.d10f7632.png133231726238445194 0
+60C:\Users\Sarim26\Documents\Portfolio\dist\logo1.3f4e0585.png133231726238115124 0
+62C:\Users\Sarim26\Documents\Portfolio\dist\map app.e9cfd8c6.png133231726238115124 0
+62C:\Users\Sarim26\Documents\Portfolio\dist\port.e37f48ea.js.map133231728255619043 0
+59C:\Users\Sarim26\Documents\Portfolio\dist\port.f7626f62.css133231726238525237 0
+63C:\Users\Sarim26\Documents\Portfolio\dist\port.f7626f62.css.map133231726238575231 0
+60C:\Users\Sarim26\Documents\Portfolio\dist\prog2.014655d0.png133231726238575231 0
+64C:\Users\Sarim26\Documents\Portfolio\dist\tictactoe.7ea49b45.png133231726238785277 0

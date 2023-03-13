@@ -1,5 +1,6 @@
 "use strict";
 const nav = document.querySelector(".nav");
+const navItems = document.querySelectorAll(".nav__item");
 const header = document.querySelector(".header");
 const heading = document.querySelector(".header__heading");
 const colorBg = document.querySelector(".header__color");
@@ -38,9 +39,15 @@ const handleHover = function (event /*,opacity*/) {
   }
 };
 
+const handleClick = function (event) {
+  // event.preventDefault();
+  document.querySelector(".nav__container").dataset.active = "off";
+};
+
 // Passing an argument into handler
 nav.addEventListener("mouseover", handleHover.bind(0.5));
 nav.addEventListener("mouseout", handleHover.bind(1));
+navItems.forEach((item) => item.addEventListener("click", handleClick.bind()));
 let typewriter;
 
 const animateHeader = function (entries, observer) {
