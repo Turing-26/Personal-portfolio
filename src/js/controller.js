@@ -135,7 +135,7 @@ const animateFooter = function (entries, observer) {
 
 const footerObserver = new IntersectionObserver(animateFooter, {
   root: null,
-  threshold: 1,
+  threshold: 0.4,
   rootMargin: "0% 0% 0% 0%",
 });
 
