@@ -27,11 +27,9 @@
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba($color-dark--1, 0.2);
   }
-}
 
-.btn__link {
-  &:link,
-  &:visited {
+  &__link:link,
+  &__link:visited {
     align-self: flex-start;
     margin: 1.5rem;
     padding: 5px;
@@ -50,10 +48,23 @@
     }
   }
 
-  &:hover {
+  &__link:hover {
     background-color: $color-dark--1;
     color: $color-white;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
   }
+}
+
+.btn {
+  text-decoration: none;
+  background-color: $color-primary;
+  color: $color-white;
+
+  font-size: 2rem;
+  padding: 1.5rem 4rem;
+  border-radius: $border-radius--small;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
 }

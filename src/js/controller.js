@@ -184,3 +184,39 @@ TxtRotate.prototype.tick = function () {
     that.tick();
   }, delta);
 };
+
+// Country code setup
+
+async function getCodes() {
+  try {
+    const response = await fetch("https://restcountries.com/v3/all");
+    const data = await response.json();
+    data.sort((a, b) => {
+      const nameA = a.name.common.toUpperCase();
+      const nameB = b.name.common.toUpperCase();
+      if (nameA < nameB) {
+        return -1;
+      }
+      return 1;
+    });
+    const countries = data.filter((country) => country.idd.root !== undefined);
+    const countryCodeSelect = document.getElementById("code");
+
+    countries.forEach((country) => {
+      const option = document.createElement("option");
+      const countryCode =
+        country.idd.suffixes.length > 1
+          ? `${country.idd.root}`
+          : `${country.idd.root}${country.idd.suffixes[0]}`;
+      console.log(country.name.common, country);
+
+      option.value = countryCode;
+      option.textContent = `${country.flag} ${country.name.common} (${countryCode})`;
+      countryCodeSelect.appendChild(option);
+    });
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+getCodes();
