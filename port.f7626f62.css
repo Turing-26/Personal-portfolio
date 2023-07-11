@@ -259,6 +259,86 @@ p {
   box-shadow: 0 1rem 2rem #00000026;
 }
 
+.btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #f86449;
+  border: none;
+  border-radius: 2px;
+  padding: 1.5rem 4rem;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.section__contact {
+  z-index: 1000000;
+  background-color: #fff55a;
+  padding: 1.2rem;
+  position: fixed;
+  inset: 0;
+}
+
+.contact__container {
+  height: 100%;
+  color: #282f3cf0;
+  background-color: #fff;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+  display: flex;
+}
+
+.contact__form {
+  height: 100%;
+  font-weight: 700;
+}
+
+.contact__group {
+  flex-direction: column;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.contact__group:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.contact__group label {
+  text-transform: uppercase;
+}
+
+.contact__group input, .contact__group textarea {
+  border: 1px solid #333;
+  border-radius: 2px;
+  outline: none;
+  margin-top: 1rem;
+  padding: .15em .5em;
+  font-family: inherit;
+  font-size: 2.2rem;
+  transition: border-color .3s ease-in-out;
+}
+
+.contact__group input:focus, .contact__group textarea:focus {
+  border: 2px solid #2c3545;
+}
+
+.contact__group textarea {
+  width: 100%;
+}
+
+.contact__number select {
+  width: 50%;
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 2px;
+  margin-top: 1rem;
+  padding: .15rem .5rem;
+  font-family: inherit;
+  font-size: 2rem;
+}
+
 .header {
   height: 140vh;
   background-color: #2c3545;
