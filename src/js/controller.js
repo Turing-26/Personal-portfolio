@@ -165,7 +165,7 @@ TxtRotate.prototype.tick = function () {
   this.el.innerHTML = `${this.txt}<span id="cursor"></span>`;
 
   let that = this;
-  let delta = 300 - Math.random() * 100;
+  let delta = 120 - Math.random() * 100;
 
   if (this.isDeleting) {
     delta /= 2;
