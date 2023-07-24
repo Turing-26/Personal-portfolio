@@ -689,7 +689,7 @@ TxtRotate.prototype.tick = function() {
     else this.txt = fullTxt.substring(0, this.txt.length + 1);
     this.el.innerHTML = `${this.txt}<span id="cursor"></span>`;
     let that = this;
-    let delta = 300 - Math.random() * 100;
+    let delta = 120 - Math.random() * 100;
     if (this.isDeleting) delta /= 2;
     if (!this.isDeleting && this.txt === fullTxt) {
         delta = this.period;

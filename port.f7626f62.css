@@ -1043,19 +1043,23 @@ p {
   width: 90%;
 }
 
-.skills__bar--5.scroll {
-  width: 70%;
-}
-
-.skills__bar--6.scroll {
+.skills__bar--5.scroll, .skills__bar--6.scroll {
   width: 85%;
 }
 
 .skills__bar--7.scroll {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__bar--8.scroll {
+  width: 75%;
+}
+
+.skills__bar--9.scroll {
+  width: 90%;
+}
+
+.skills__bar--10.scroll {
   width: 80%;
 }
 
